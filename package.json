@@ -1,20 +1,28 @@
-
 {
   "name": "laravel-doctor",
   "version": "0.1.0",
   "description": "Static analysis CLI for Laravel — detect architectural anti-patterns",
-  "keywords": ["laravel", "php", "static-analysis", "cli", "code-quality"],
+  "keywords": [
+    "laravel",
+    "php",
+    "static-analysis",
+    "cli",
+    "code-quality"
+  ],
   "author": "hoanggaphan",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoanggaphan/laravel-doctor"
+    "url": "git+https://github.com/hoanggaphan/laravel-doctor.git"
   },
   "bin": {
-    "laravel-doctor": "./dist/bin/laravel-doctor.js"
+    "laravel-doctor": "dist/bin/laravel-doctor.js"
   },
   "main": "./dist/index.js",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc && chmod +x dist/bin/laravel-doctor.js",
     "dev": "ts-node src/bin/laravel-doctor.ts",
