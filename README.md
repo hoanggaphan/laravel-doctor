@@ -1,7 +1,7 @@
 # laravel-doctor 🩺
 > Static analysis CLI for Laravel — detect architectural anti-patterns, not just type errors.
 
-Tested on **Laravel 10, 11, 12**.
+Tested on **Laravel 12**.
 
 ```bash
 npx laravel-doctor@latest . --verbose
